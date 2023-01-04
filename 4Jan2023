@@ -1,0 +1,73 @@
+# # Arrays
+# arr1=[1,2,3,5,6,7]
+# arr2=["one","Two","Three"]
+# # puts arr1[0]
+# # puts arr1.first
+# puts arr1.last
+# puts arr1.pop
+#  arr2.push("Four")
+# puts arr2
+# arr2<<"five"
+# puts arr2
+# puts arr1.map{|i| i**2}
+# puts arr1
+# puts arr1.collect{|i| i**3}
+# puts "********************************"
+# puts arr1.delete_at(1)
+# puts "********************************"
+# puts arr1
+# puts "************************"
+# arr2.delete("Two")
+# puts arr2
+# puts "************************************"
+
+#  puts arr3.uniq
+
+# puts "************************************"
+#puts arr3
+#puts arr3.uniq!
+# puts arr3.select{ |i| i>5}
+# arr2=["one","Two","Three"]
+# puts arr3.select { |i|  i.even?}
+# puts arr3.select {|i| i%2==0}
+# puts arr3.include?(32)
+
+#puts arr1.select {|i| i.odd?}
+#puts arr1.select {|i| i.even?}
+# arr3.each_index {|i| puts "Hello #{i}" }
+# arr3.each {|i| puts "Hello #{i}" }
+
+# arr3.each_with_index {|val,key| puts "Hello #{val} #{key}" }
+# arr4=[1,2,3,4]
+# arr4.each_with_index{|val,key| puts "#{val} is index is #{key}"}
+
+# nestarr = [1,[1,2],2,[2,3],4,5]
+# puts nestarr[3]
+# nestarr.each_with_index{|v,i| puts" #{v}  is at #{i}"}
+# puts "--------------------------------"
+# print nestarr
+# puts "*********************************"
+# puts nestarr.flatten
+puts "----------------------------------------"
+arr3=[12,3,4 ]
+puts arr3.sort
+arr5= [2,3,4,5]
+print arr3.product (arr5)
+puts "----------------------------------------"
+arr5.each do |i|
+    print i+10
+end
+
+arr5.each do |i| 
+    if i==4
+        puts "Element is present"
+    else
+        puts "Element is not present"
+    end
+end
+
+print arr5.include?4
+arr7 = [["hii", "hello", "world"],["example", "question"]]
+print  arr7[1][0]
+print arr7.last.first
+
