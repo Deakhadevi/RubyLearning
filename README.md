@@ -40,6 +40,20 @@ Mixins
 Ruby has a feature of single inheritance only. Ruby has classes as well as modules. A module has methods but no instances. Instead, a module can be mixed into a class, which adds the method of that module to the class. It is similar to inheritance but much more flexible.
 
 
+Naming conventions
+Ruby defines some naming conventions for its variable, method, constant and class.
+
+Constant: Starts with a capital letter.
+Global variable: Starts with a dollar sign ($).
+Instance variable: Starts with a (@) sign.
+Class variable: Starts with a (@@) sign.
+Method name: Allowed to start with a capital letter.
+Keyword arguments
+Like Python, Ruby methods can also be defined using keyword arguments.
+
+Method names
+Methods are allowed to end with question mark (?) or exclamation mark (!). By convention, methods that answer questions end with question mark and methods that indicates that method can change the state of the object end with exclamation mark.
+
 create a program with the extension .rb
 
 To run Ruby program 
